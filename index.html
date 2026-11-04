@@ -3,39 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dart i IF Midtdjurs · Hver tirsdag 19–22 i Ryomgård</title>
-<meta name="description" content="Kom og spil dart i IF Midtdjurs. Hver tirsdag kl. 19–22 i Ryomgård Kultur- og Fritidscenter. Ingen tilmelding, mød bare op. Alle kan være med.">
-<!-- Remove noindex when IF Midtdjurs has approved the site. -->
+<title>Dart i Ryomgård · Hver tirsdag 19–22</title>
+<meta name="description" content="Kom og spil dart i Ryomgård. Hver tirsdag kl. 19–22 i Ryomgård Kultur- og Fritidscenter. Ingen tilmelding, mød bare op. Alle kan være med.">
+<!-- Remove noindex when the site is on its own domain. -->
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#0c0b0a">
-<!-- Absolute URLs below use the preview address. Replace them all if the site moves to dart.ifmidtdjurs.dk. -->
-<link rel="canonical" href="https://nielspilgaard.github.io/ifm-dart/">
+<!-- Absolute URLs below use the preview address. Replace them all when the site moves to its own domain. -->
+<link rel="canonical" href="https://nielspilgaard.github.io/dart-ryomgaard/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="da_DK">
-<meta property="og:site_name" content="Dart i IF Midtdjurs">
-<meta property="og:title" content="Dart i IF Midtdjurs: Din tur. Kast en pil.">
+<meta property="og:site_name" content="Dart i Ryomgård">
+<meta property="og:title" content="Dart i Ryomgård: Din tur. Kast en pil.">
 <meta property="og:description" content="Spil 501 i browseren, og prøv det så i virkeligheden: dart hver tirsdag 19–22 i Ryomgård.">
-<meta property="og:image" content="https://nielspilgaard.github.io/ifm-dart/assets/og.jpg">
+<meta property="og:image" content="https://nielspilgaard.github.io/dart-ryomgaard/assets/og.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Dartskive med teksten: Din tur. Kast en pil. Hver tirsdag 19–22 i Ryomgård Kultur- og Fritidscenter.">
-<meta property="og:url" content="https://nielspilgaard.github.io/ifm-dart/">
+<meta property="og:url" content="https://nielspilgaard.github.io/dart-ryomgaard/">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SportsClub",
-  "name": "Dart i IF Midtdjurs",
+  "name": "Dart i Ryomgård",
   "description": "Dart hver tirsdag kl. 19–22 i Ryomgård Kultur- og Fritidscenter. Ingen tilmelding, mød bare op.",
-  "url": "https://nielspilgaard.github.io/ifm-dart/",
-  "image": "https://nielspilgaard.github.io/ifm-dart/assets/og.jpg",
-  "logo": "https://nielspilgaard.github.io/ifm-dart/assets/brand/icon-512.png",
-  "parentOrganization": {
-    "@type": "SportsOrganization",
-    "name": "IF Midtdjurs",
-    "url": "https://ifmidtdjurs.dk/"
-  },
+  "url": "https://nielspilgaard.github.io/dart-ryomgaard/",
+  "image": "https://nielspilgaard.github.io/dart-ryomgaard/assets/og.jpg",
+  "logo": "https://nielspilgaard.github.io/dart-ryomgaard/assets/brand/icon-512.png",
+  "email": "niels.pilgaard@hotmail.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Marienhoffvej 13C",
@@ -60,7 +56,7 @@
 @font-face{font-family:Oswald;src:url(assets/fonts/oswald.woff2) format("woff2");font-weight:400 700;font-display:swap}
 @font-face{font-family:Lato;src:url(assets/fonts/lato-400.woff2) format("woff2");font-weight:400;font-display:swap}
 @font-face{font-family:Lato;src:url(assets/fonts/lato-700.woff2) format("woff2");font-weight:700;font-display:swap}
-:root{--ifm:#cd1a1a;--hot:#ff4a3d;--ink:#0c0b0a;--paper:#f4eee2;--display:Oswald,Impact,sans-serif}
+:root{--red:#cd1a1a;--hot:#ff4a3d;--ink:#0c0b0a;--paper:#f4eee2;--display:Oswald,Impact,sans-serif}
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{margin:0;background:var(--ink);color:var(--paper);font:400 17px/1.5 Lato,system-ui,sans-serif}
@@ -74,12 +70,11 @@ ul{list-style:none}
   background:radial-gradient(60% 75% at 68% 50%,#47201a 0,#17100e 58%,var(--ink) 100%);overflow:hidden}
 .top{display:flex;align-items:center;gap:14px;margin-bottom:clamp(18px,3.5vh,38px)}
 .top img{height:44px;width:auto}
-.top span{font:500 13px var(--display);letter-spacing:.24em;text-transform:uppercase;opacity:.85}
 h1{font:700 clamp(54px,7vw,112px)/.95 var(--display);text-transform:uppercase}
 h1 em{font-style:normal;color:var(--hot)}
 .lead{margin:14px 0 20px;font-size:clamp(16px,1.3vw,19px);opacity:.85;max-width:36ch}
 
-.score{max-width:460px;background:#000a;border:1px solid #fff2;border-left:5px solid var(--ifm)}
+.score{max-width:460px;background:#000a;border:1px solid #fff2;border-left:5px solid var(--red)}
 .score-main{display:grid;grid-template-columns:auto 1fr;gap:6px 20px;align-items:center;padding:16px 20px 12px}
 .rem{grid-row:span 2;font:700 clamp(58px,6.2vw,88px)/1 var(--display);font-variant-numeric:tabular-nums;min-width:2.05ch}
 .slots{display:flex;gap:8px}
@@ -89,14 +84,14 @@ h1 em{font-style:normal;color:var(--hot)}
 .modes{display:flex;gap:4px}
 .ctl{appearance:none;border:0;border-radius:3px;background:#ffffff14;color:inherit;padding:6px 10px;min-height:32px;font:500 13px var(--display);letter-spacing:.04em;cursor:pointer}
 .ctl:hover{background:#ffffff2c}
-.ctl[aria-pressed=true]{background:var(--ifm)}
+.ctl[aria-pressed=true]{background:var(--red)}
 .tally{opacity:.8;font-variant-numeric:tabular-nums}
 .share{display:none;width:calc(100% - 40px);margin:0 20px 14px;padding:11px;background:#fff;color:#111;font-size:16px}
 .share.show{display:block}
 .share:hover{background:var(--paper)}
 
-.cta{display:inline-block;margin-top:18px;padding:15px 24px;background:var(--ifm);color:#fff;font:600 17px var(--display);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background .15s,color .15s}
-.cta:hover{background:#fff;color:var(--ifm)}
+.cta{display:inline-block;margin-top:18px;padding:15px 24px;background:var(--red);color:#fff;font:600 17px var(--display);letter-spacing:.06em;text-transform:uppercase;text-decoration:none;transition:background .15s,color .15s}
+.cta:hover{background:#fff;color:var(--red)}
 .when{margin-top:14px;font-size:14px;opacity:.78}
 
 .boardwrap{position:relative;display:grid;place-items:center;min-width:0}
@@ -112,13 +107,10 @@ h1 em{font-style:normal;color:var(--hot)}
 .hit.show{transform:rotate(-4deg) scale(1);opacity:1}
 #confetti{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:20}
 
-.reel{position:relative;min-height:88svh;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(24px,4vw,60px);overflow:hidden;background:#000}
+.reel{position:relative;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(24px,4vw,60px);overflow:hidden;background:radial-gradient(70% 90% at 70% 34%,#47201a 0,#17100e 70%)}
 .reel video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.vid-slot{position:absolute;inset:0;display:flex;align-items:flex-start;justify-content:flex-end;padding:clamp(28px,3vw,44px);outline:2px dashed #fff3;outline-offset:-14px;
-  background:repeating-conic-gradient(from -9deg at 70% 34%,#ffffff0b 0 18deg,#0000 18deg 36deg),radial-gradient(70% 90% at 70% 34%,#47201a 0,#17100e 70%)}
-.vid-slot span{font:500 13px var(--display);letter-spacing:.14em;text-transform:uppercase;opacity:.75}
 .reel::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#000d 0,#0005 45%,#0000 75%)}
-.reel>*:not(video,.vid-slot){position:relative;z-index:1}
+.reel>*:not(video){position:relative;z-index:1}
 .reel h2{font:700 clamp(58px,11.5vw,184px)/.92 var(--display);text-transform:uppercase}
 .reel h2 span{color:var(--hot)}
 .cd-row{display:flex;flex-wrap:wrap;align-items:flex-end;gap:12px 28px;margin-top:24px;padding-top:18px;border-top:1px solid #fff4}
@@ -132,9 +124,9 @@ h1 em{font-style:normal;color:var(--hot)}
 
 .grid{display:grid;grid-template-columns:repeat(12,1fr)}
 .cell{padding:clamp(26px,3.6vw,56px)}
-.where{grid-column:span 7;background:var(--paper);color:#17110e}
+.where{grid-column:1/-1;background:var(--paper);color:#17110e}
 .where h2,.ask h2,.kontakt h2{font:700 clamp(42px,6vw,96px)/1 var(--display);text-transform:uppercase}
-.where h2{color:var(--ifm)}
+.where h2{color:var(--red)}
 .where h2,.ask h2{margin-bottom:18px}
 .where address{font-style:normal;font-size:clamp(19px,1.8vw,26px);line-height:1.35}
 .where address strong{display:block}
@@ -143,20 +135,18 @@ h1 em{font-style:normal;color:var(--hot)}
 .shot{grid-column:span 5;position:relative;min-height:340px;padding:0;overflow:hidden;background:#000}
 .shot video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .ask{grid-column:1/-1;background:#16120f}
-.qa{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(20px,3vw,44px)}
+.qa{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,44px)}
 .qa dt{font:600 clamp(21px,1.9vw,27px)/1.15 var(--display);margin-bottom:8px}
 .qa dd{opacity:.85}
-.kontakt{grid-column:1/-1;background:var(--ifm);color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:26px clamp(24px,5vw,72px);align-items:center}
+.kontakt{grid-column:1/-1;background:var(--red);color:#fff;display:grid;grid-template-columns:1fr 1fr;gap:26px clamp(24px,5vw,72px);align-items:center}
 .kontakt li{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid #fff5;font-size:18px}
 .kontakt li:last-child{border:0}
 .kontakt li span:first-child{font-weight:700}
-.soon{opacity:.85;font-style:italic}
 
 footer{display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between;align-items:center;padding:22px clamp(26px,3.6vw,56px);font-size:14px;color:#cfc8bc}
 footer img{height:30px;width:auto}
 footer div{display:flex;align-items:center;gap:14px}
 
-@media(max-width:1000px){.qa{grid-template-columns:1fr 1fr}}
 @media(max-width:860px){
   /* The game comes first on a phone: flatten the copy column so the board sits under the headline. */
   .stage{grid-template-columns:minmax(0,1fr);gap:14px;align-content:start}
@@ -171,7 +161,7 @@ footer div{display:flex;align-items:center;gap:14px}
   .where,.shot{grid-column:1/-1}
   .kontakt{grid-template-columns:1fr}
 }
-@media(max-width:560px){.qa{grid-template-columns:1fr}}
+@media(max-width:720px){.qa{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
@@ -182,7 +172,7 @@ footer div{display:flex;align-items:center;gap:14px}
 <main>
 <section class="stage">
   <div>
-    <div class="top"><img src="assets/brand/monogram.svg" width="151" height="100" alt="IF Midtdjurs"><span>Dart · IF Midtdjurs</span></div>
+    <div class="top"><img src="assets/brand/logo.svg" width="280" height="44" alt="Dart i Ryomgård"></div>
     <h1>Din tur.<br><em>Kast en pil.</em></h1>
     <p class="lead">Tryk på skiven, og spil dig ned til nul. Du skal slutte på en double, og hånden ryster en smule. Ligesom i virkeligheden.</p>
     <div class="score">
@@ -212,9 +202,8 @@ footer div{display:flex;align-items:center;gap:14px}
 </section>
 
 <section class="reel">
-  <!-- Video slot "throw". To fill it, replace the div with:
+  <!-- Video slot "throw". To fill it, add this here and give .reel min-height:88svh:
        <video data-lazy src="assets/video/throw.mp4" poster="assets/video/throw.jpg" muted loop playsinline preload="none" aria-hidden="true"></video> -->
-  <div class="vid-slot" aria-hidden="true"><span>Her kommer vores egen video</span></div>
   <h2>Hver tirsdag.<br><span>19 til 22.</span></h2>
   <div class="cd-row">
     <span class="cd-label">Næste tirsdag om</span>
@@ -240,34 +229,29 @@ footer div{display:flex;align-items:center;gap:14px}
       <a href="https://ryomgaardkf.dk/" rel="noopener">ryomgaardkf.dk</a>
     </div>
   </div>
-  <div class="cell shot">
-    <!-- Video slot "board". To fill it, replace the div with:
-         <video data-lazy src="assets/video/board.mp4" poster="assets/video/board.jpg" muted loop playsinline preload="none" aria-hidden="true"></video> -->
-    <div class="vid-slot" aria-hidden="true"><span>Her kommer vores egen video</span></div>
-  </div>
+  <!-- Video slot "board". To fill it, add this here and give .where grid-column:span 7:
+       <div class="cell shot"><video data-lazy src="assets/video/board.mp4" poster="assets/video/board.jpg" muted loop playsinline preload="none" aria-hidden="true"></video></div> -->
   <div class="cell ask">
     <h2>Det praktiske</h2>
     <dl class="qa">
       <div><dt>Skal jeg tilmelde mig?</dt><dd>Nej. Mød bare op.</dd></div>
       <div><dt>Skal jeg have pile med?</dt><dd>Har du selv nogle, så tag dem med. Ofte kan du låne nogle hos os, men ikke altid.</dd></div>
-      <div><dt>Hvad koster det?</dt><dd>Ingenting.</dd></div>
       <div><dt>Skal jeg kunne spille?</dt><dd>Nej. Alle kan være med.</dd></div>
     </dl>
   </div>
   <div class="cell kontakt" id="kontakt">
     <h2>Spørgsmål?</h2>
-    <!-- Replace each .soon span with a link when the club has the details. -->
+    <!-- Add when the club has them:
+         <li><span>Facebook-gruppe</span><a href="FACEBOOK_URL" rel="noopener">Gå til gruppen →</a></li>
+         <li><span>Telefon</span><a href="tel:+45NUMBER">NN NN NN NN</a></li> -->
     <ul>
-      <li><span>Facebook-gruppe</span><span class="soon">kommer snart</span></li>
-      <li><span>Mail</span><span class="soon">kommer snart</span></li>
-      <li><span>Telefon</span><span class="soon">kommer snart</span></li>
+      <li><span>Mail</span><a href="mailto:niels.pilgaard@hotmail.com">niels.pilgaard@hotmail.com</a></li>
     </ul>
   </div>
 </section>
 </main>
 <footer>
-  <div><img src="assets/brand/monogram.svg" width="46" height="30" alt="" loading="lazy"><a href="https://ifmidtdjurs.dk/" rel="noopener">IF Midtdjurs</a></div>
-  <span>Prototype, endnu ikke en officiel IFM-side</span>
+  <div><img src="assets/brand/logo.svg" width="191" height="30" alt="Dart i Ryomgård" loading="lazy"></div>
 </footer>
 <canvas id="confetti" hidden></canvas>
 
@@ -441,7 +425,7 @@ function confetti() {
 }
 
 /* ---------- 501 ---------- */
-const TURN_PAUSE = 1300, WIN_KEY = 'ifm-dart-best';
+const TURN_PAUSE = 1300, WIN_KEY = 'dart-best';
 let startScore = 501, remaining = 501, turnStart = 501, thrown = 0, totalDarts = 0, locked = false, finished = false, timer;
 let sharePayload = '';
 
@@ -518,7 +502,7 @@ function win() {
   renderTally();
   const { isRecord, best } = saveBest(startScore, totalDarts);
   say(`Checkout på ${plural(totalDarts)}! ${isRecord ? 'Ny rekord.' : `Din rekord er ${plural(best)}.`} Så er du klar til tirsdag.`);
-  sharePayload = `Jeg klarede ${startScore} på ${plural(totalDarts)} på IF Midtdjurs' dartskive. Kan du slå den?`;
+  sharePayload = `Jeg klarede ${startScore} på ${plural(totalDarts)} på dartskiven fra Dart i Ryomgård. Kan du slå den?`;
   $('share').classList.add('show');
   confetti();
 }
